@@ -1,5 +1,5 @@
 # readme-creater
-  by USOYJ  
+  by usoyj  
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) 
   ## Table of Contents
   * [Description](#description)
@@ -13,13 +13,13 @@
   * [Link](#link) 
   * [Screenshot](#screenshot) 
   ## Description
-  This is a professional read me generator which was created by using node js and inquirer
+  A professional README generator
   ## Requirements
-  inquirer 8.2.4
+  inquirer@ 8.2.4
   ## Features
-  not need to create a README file just generate one!'
+  You do not have to create a README file from scratch
   ## Usage
-  Js, Node, JSON
+  Js, Node, Json
   ## Contributors
   N/A
   ## Test
@@ -30,8 +30,8 @@
   ## License
       This project is licensed under the MIT license.
   ## Link
-  https://usoyj.github.io/readme-creater/
+  https://github.com/USOYJ/readme-creater/blob/main/README.md
   ## Screenshot
-  undefined
+  
 
 
