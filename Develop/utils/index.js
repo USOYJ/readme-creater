@@ -75,7 +75,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((responses) => {
     console.log("Creating Professional README.md File...");
-    writeToFile("./Users/oyindamolajongbo/Desktop/bootcamp/readme-creater/Develop/utils/Develop/README.md", generateMarkdown({ ...responses }));
+    writeToFile("./Develop/utils/README.md", generateMarkdown({ ...responses }));
   });
 }
 init();
