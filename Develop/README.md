@@ -15,7 +15,7 @@
   ## Description
   this is a professional readme generator.
   ## Requirements
-  Markdown, Js, Node, JSON
+ inquirer 8.2.4
   ## Features
   You do not have to create a readme from scratch just answers the prompted question
   ## Usage
