@@ -59,6 +59,11 @@ const questions = [
         name: 'test',
         message: 'Please provide test instructions for your project.',
     },
+    {   
+        type: 'input',
+        name: 'screenshot',
+        message: 'Please provide a screenshot of your project.',    
+    },
 
 
 
