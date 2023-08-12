@@ -2,7 +2,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const path = require("path");
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./generateMarkdown");
 
 //Creating an array of questions for user input
 const questions = [
@@ -15,11 +15,6 @@ const questions = [
     type: "input",
     name: "description",
     message: "Please describe the purpose and functionality of this project.",
-  },
-  {
-    type: "input",
-    name: "screenshot",
-    message: "Please provide the relative path to the image you want to use as the screenshot."
   },
   {
     type: "input",
@@ -80,7 +75,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((responses) => {
     console.log("Creating Professional README.md File...");
-    writeToFile("./readme-creater/README.md", generateMarkdown({ ...responses }));
+    writeToFile("./readme-creater/Develop/utils/index.js", generateMarkdown({ ...responses }));
   });
 }
 init();

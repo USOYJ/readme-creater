@@ -1,7 +1,7 @@
 {
   "name": "readme-creater",
   "version": "1.0.0",
-  "description": "#Description",
+  "description": "## Description",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,10 +9,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/USOYJ/readme-creater.git"
-
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/USOYJ/readme-creater/issues"
+  },
   "homepage": "https://github.com/USOYJ/readme-creater",
   "dependencies": {
     "inquirer": "^8.2.4"
